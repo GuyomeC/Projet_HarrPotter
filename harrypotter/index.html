@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry Potdefleur</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="bouton">
+            <button onclick="openTab(0)" class="active">Tout</button>
+            <button onclick="openTab(1)">Gryfondor</button>
+            <button onclick="openTab(2)">Serpentar</button>
+            <button onclick="openTab(3)">Poufsouffle</button>
+            <button onclick="openTab(4)">Serdaigle</button>
+        </div>
+    </nav>
+
+    <div class="corp">
+        <header>
+            <button onclick="openNav()" class="btn" role="button"><span class="text">=</span></button>
+            <h1> Regarde ta collection !</h1>
+            <div id="UX">
+                <p class="txt">users</p>
+                <p class="txt">loupe</p>
+            </div>
+        </header>
+
+        <main>
+            <div class="onglet">
+                <p>Collection</p>
+
+                <div class="mTop10" >
+                    <div class="tab-content" style="display: block;">
+                        <h2>Tout</h2>
+                        <div class="cartes">
+                            <div id="card1" class="imgPerso"></div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <h2>Gryfondor</h2>
+                        <div class="cartes">
+                            <div id="card2" class="imgPerso"></div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <h2>Serpentar</h2>
+                        <div class="cartes">
+                            <div id="card3" class="imgPerso"></div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <h2>Poufsouffle</h2>
+                        <div class="cartes">
+                            <div id="card4" class="imgPerso"></div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <h2>Serdaigle</h2>
+                        <div class="cartes">
+                            <div id="card5" class="imgPerso"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <footer>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at tortor a risus interdum
+                 dictum sed eu augue. Donec tempor leo at sollicitudin pellentesque. Aenean tincidunt enim
+                  quis tincidunt dictum. Aenean ligula nisl, fringilla sit amet arcu vitae, maximus mattis
+                   libero. Fusce odio sapien, egestas nec ante eget, mattis vehicula neque. Vivamus sollicitudin
+                    orci sed neque maximus vulputate. Suspendisse luctus mattis pharetra. Nam posuere nunc sem,
+                     ac ornare lorem sagittis quis. Maecenas mollis volutpat ullamcorper. Morbi ut urna sed nibh
+                      vehicula molestie. Donec ac diam fermentum, luctus elit sed, laoreet justo.</p>
+        </footer>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #404040;
+}
+
+header{
+    background-color: firebrick;
+    height: 7%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2{
+    background-color: firebrick;
+
+}
+
+.txt{
+    margin-top: 10px;
+}
+
+.corp{
+    width: 100%;
+}
+
+main{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+footer{
+    color: black;
+    height: 10%;
+    background-color: #404040;
+}
+
+nav{
+    background-color: firebrick;
+    height: 100%;
+    display: none;
+}
+
+nav.active{
+    display: block;
+    width: 200px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 11px;
+    font-family: arial;
+    font-size: 1em;
+    color: #FFFFFF;
+    background-color: #ffc000;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border: 3px solid #000000;
+    box-shadow: 1px 3px 4px #7f7f7f;
+    -webkit-box-shadow: 1px 3px 4px #7f7f7f;
+    -moz-box-shadow: 1px 3px 4px #7f7f7f;
+}
+    
+    
+.btn:hover {
+    padding: 11px;
+    background-color: #b22222;
+    box-shadow: 1px 3px 4px #777777;
+    -webkit-box-shadow: 1px 3px 4px #777777;
+    -moz-box-shadow: 1px 3px 4px #777777;
+}
+
+
+.bouton{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+}
+
+.onglet{
+    width: 90%;
+    height: 80%;
+    background-color: #404040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: firebrick;
+    padding-bottom: 20px;
+}
+
+button{
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100px;
+}
+
+.tab-content{
+    width: 100%;
+    border:1px solid;
+    display: none;
+}
+
+button.active{
+    background-color: black;
+    color: aliceblue;
+}
+
+.mTop10{
+    width: 80%;
+    margin-top: 10px;
+}
+
+.images{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.imgPerso{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nomPerso{
+    color: #000000;
+}
+
+#gryffindor{
+    background-color: #404040;
+}
+
+#slytherin{
+    background-color: #404040;
+}
+
+#hufflepuff{
+    background-color: #404040;
+}
+
+#ravenclaw{
+    background-color: #404040;
+}
+
+.houseGryffindor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.houseSlytherin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.houseHufflepuff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.houseRavenclaw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#UX{
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1{
+        font-size: 20px;
+    }
+    #UX{
+
+        display: flex;
+        flex-direction: column;
+    }
+    .btn{
+        width: 50px;
+    }
+        
+        
+    .btn:hover {
+        width: 50px;
+    }
+}
