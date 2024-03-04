@@ -1,0 +1,7 @@
+post
+
+put
+
+get
+
+delete
